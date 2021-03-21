@@ -1,0 +1,23 @@
+.container{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.center{
+    margin: auto;
+    margin-bottom: 0.5%;
+}
+
+.input-field {
+    margin: auto;
+    display: block;
+    text-transform: capitalize;
+}
+
+.post-button{
+    margin-top: 1.5%;
+}

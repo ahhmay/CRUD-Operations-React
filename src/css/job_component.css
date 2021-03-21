@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-menu{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.scrollbar{
+    height: 660px;
+    overflow: auto;
+}
+
+.insert{
+    background-color:rgb(52, 192, 185);
+    margin-bottom: 2%;
+}
+
+.insert:hover{
+    color:rgb(52, 192, 185);
+    background-color: black;
+}
+
+.dropdown{
+    float: right;
+    margin-bottom: 2%;
+    margin-left: 0.6%;
+}
+
+.EmptyMessage{
+    /* color: rgb(39, 37, 37); */
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+tr{
+    text-align: center;
+}
+
+.warning{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.warning:hover{
+    color: rgb(153, 112, 10);
+}
+
+.success{
+    margin-left: 2%;
+}
+
+.a-link{
+    color: white;
+}
+
+.a-link:hover{
+    color: white;
+}
+
+.editable-jobName{
+    padding-left: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-transform: capitalize;
+}
+
+.editable-jobDesc{
+    padding-left: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-transform: capitalize;
+}
